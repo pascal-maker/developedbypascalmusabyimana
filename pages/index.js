@@ -1,6 +1,6 @@
 import Head from "next/head";
 import {
-  AiFillTwitterCircle,
+  AiFillTwitterSquare,
   AiFillLinkedin,
   AiFillGithub,
 } from "react-icons/ai";
@@ -56,16 +56,16 @@ export default function Home() {
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
             I have 3 years of experience building and designing software.
-             Currently, I love to work on web/ mobile applications using technologies like React, React-native , Objective-C, Java , Firebase and Swift.
+             Currently, I love to work on web and  mobile applications using technologies like React, Laravel, React-native , Objective-C, Java ,Javascript Firebase and Swift.
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">     
-    <a href="https://twitter.com/pascalmusabyim1?lang=en"><AiFillTwitterCircle /></a>
+    <a href="https://twitter.com/pascalmusabyim1?lang=en"><AiFillTwitterSquare /></a>
     <a href="https://be.linkedin.com/in/pascal-musabyimana-573b66178"><AiFillLinkedin /></a>
     <a href="https://github.com/pascal-maker"><AiFillGithub /></a>
 </div>
 
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={deved} layout="fill" objectFit="cover" />
+              <Image src={deved} layout="fill" objectFit="cover" alt="" />
             </div>
           </div>
         </section>
@@ -73,13 +73,12 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">About Me</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-            I'm a student at the University of Ghent in my freetime I like to build websites and apps. Let me help you fullfill your dream as an entrepeneur. If you need a landing page , an e-commerce app , a brand new website for your marketing agency or anything else that you desire I'm your guy. Lets work together to fulfill your potential to the fullest.
+            I&apos;m a student at the University of Ghent in my freetime I like to build websites and apps. Let me help you fullfill your dream as an entrepeneur. If you need a landing page , an e-commerce app , a brand new website for your marketing agency or anything else that you desire I&apos;m your guy. Lets work together to fulfill your potential to the fullest.
 
 
 I have worked with experienced developers across the world who worked at Facebook, Twitter, Pinterest and Adobe. When it comes to user-experience or design I always try to enhance the user experience based on your target audience. This includes the ability to create something that will appeal to the user.
-              <span className="text-teal-500">Projects </span>
-              worked on  <span className="text-teal-500">startups </span>
-              and collaborated with talanted people to create digital products
+              Worked on cool   <span className="text-teal-500">startup projects </span>
+              and collaborated with talented people to create digital products
               for both business and consumer use.
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
@@ -89,41 +88,46 @@ I have worked with experienced developers across the world who worked at Faceboo
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-              <Image src={design} width={100} height={100} />
+              <Image src={design} width={100} height={100} alt="" />
               <h3 className="text-lg font-medium pt-8 pb-2  ">
                 Coding Languages
               </h3>
               <p className="py-2">
-                Using these coding Languages to create your dream website or mobile app so we can launch your business in the best way possible.
+                Using these Coding Languages to create your dream website or mobile app so we can launch your business in the best way possible.
               </p>
-              <h4 className="py-4 text-teal-600">Code Languages I Use</h4>
+              <h4 className="py-4 text-teal-600">Coding Languages I Use</h4>
               <p className="text-gray-800 py-1">Javascript</p>
-              <p className="text-gray-800 py-1">Objective-c</p>
+              <p className="text-gray-800 py-1">Objective-C</p>
               <p className="text-gray-800 py-1">Swift</p>
               <p className="text-gray-800 py-1">Java</p>
+              <p className="text-gray-800 py-1">PHP</p>
+              <p className="text-gray-800 py-1">Node Js</p>
+              <p className="text-gray-800 py-1">Kotlin</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={code} width={100} height={100} />
+              <Image src={code} width={100} height={100} alt="" />
               <h3 className="text-lg font-medium pt-8 pb-2 ">
                 Code your dream project
               </h3>
               <p className="py-2">
-                Do you have an idea for your next great website? Let's make it a
+                Do you have an idea for your next great startup? Let &apos;s make it a
                 reality.
               </p>
               <h4 className="py-4 text-teal-600">Technologies/Frameworks Tools I Use</h4>
               <p className="text-gray-800 py-1">Firebase</p>
               <p className="text-gray-800 py-1">Github</p>
               <p className="text-gray-800 py-1">Yarn</p>
-              <p className="text-gray-800 py-1">React/React-Native</p>
+              <p className="text-gray-800 py-1">React</p>
               <p className="text-gray-800 py-1">Wordpress</p>
-            </div>
+              <p className="text-gray-800 py-1">Laravel</p>
+              <p className="text-gray-800 py-1">React-Native</p  >       
+           </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={consulting} width={100} height={100} />
+              <Image src={consulting} width={100} height={100} alt="" />
               <h3 className="text-lg font-medium pt-8 pb-2 ">Consulting</h3>
               <p className="py-2">
                 Are you interested in chasing your dreams  I can
-                help you achieve your dreams.
+                help you achieve your dreams as an aspiring entrepeneur.
               </p>
               <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
               <p className="text-gray-800 py-1">Photoshop</p>
@@ -137,16 +141,16 @@ I have worked with experienced developers across the world who worked at Faceboo
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">Portofolio</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Since the beginning of my journey as a freelance designer and
-              developer, I've created certain projects
+              Since the beginning of my journey as a developer and
+              freelancer, I have created/designed certain 
               <span className="text-teal-500"> Projects </span>
               consulted for <span className="text-teal-500">startups </span>
-              and collaborated with talanted people to create digital products
+              and collaborated with talented people to create digital products
               for both business and consumer use.
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               I offer from a wide range of services, including brand design,
-              programming and consulting.
+              developing and consulting.
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
@@ -157,6 +161,8 @@ I have worked with experienced developers across the world who worked at Faceboo
                 height={"200%"}
                 layout="responsive"
                 src={web1}
+                alt=""
+
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -166,6 +172,7 @@ I have worked with experienced developers across the world who worked at Faceboo
                 height={"200%"}
                 layout="responsive"
                 src={web2}
+                alt=""
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -175,6 +182,7 @@ I have worked with experienced developers across the world who worked at Faceboo
                 height={"100%"}
                 layout="responsive"
                 src={web3}
+                alt=""
               />
             </div>
             
@@ -182,5 +190,5 @@ I have worked with experienced developers across the world who worked at Faceboo
         </section>
       </main>
     </div>
-  );
+  ); 
 }
