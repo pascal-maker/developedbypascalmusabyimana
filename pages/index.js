@@ -14,11 +14,11 @@ import Image from "next/image";
 import web1 from "../public/vex-oh.png";
 import web2 from "../public/lovia.jpg";
 import web3 from "../public/mysite.png";
-
+import nextConfig from '../next.config.js';
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
-
+  const { publicPath } = nextConfig;
   return (
     <div className={darkMode ? "dark" : ""}>
       <Head>
