@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@alan-ai/alan-sdk-web": "^1.8.48",
+    "@alan-ai/alan-sdk-web": "^1.8.53",
     "build": "^0.1.4",
     "firebase": "^8.6.8",
     "firebase-tools": "^12.4.7",
