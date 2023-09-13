@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import '../styles/globals.css';
-import initializeAlanAI from '~/react-portofolio-with-tailwind/pages/alan-client';
+import initializeAlanAI from './alan-client';
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
