@@ -9,7 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@alan-ai/alan-sdk-web": "^1.8.53",
     "build": "^0.1.4",
     "firebase": "^8.6.8",
     "firebase-tools": "^12.4.7",
@@ -19,7 +18,7 @@
     "postcss-load-config": "^4.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-icons": "^4.4.0",
+    "react-icons": "^4.11.0",
     "swr": "^2.2.1",
     "tailwind": "^4.0.0"
   },

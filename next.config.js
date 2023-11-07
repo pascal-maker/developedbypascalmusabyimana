@@ -1,12 +1,8 @@
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  staticPaths: [
-    {
-      path: '/alan-client',
-      servedPath: 'alan-client/dist',
-    },
-  ],
-}
+  // Remove the 'alan-client' static path block
+};
+
+module.exports = nextConfig;
