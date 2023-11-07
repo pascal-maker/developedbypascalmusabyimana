@@ -15,6 +15,7 @@ import web1 from "../public/vex-oh.png";
 import web2 from "../public/lovia.jpg";
 import web3 from "../public/mysite.png";
 import {FaXTwitter} from 'react-icons/fa6';
+import {FaEnvelope} from 'react-icons/fa6';
 FaXTwitter
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -62,6 +63,8 @@ export default function Home() {
     <a href="https://twitter.com/pascalmusabyim1?lang=en">< FaXTwitter/></a>
  <a href="https://be.linkedin.com/in/pascal-musabyimana-573b66178"><AiFillLinkedin /></a>
     <a href="https://github.com/pascal-maker"><AiFillGithub /></a>
+    <a href="https://pascal-musa@hotmail.com"><FaEnvelope /></a>
+
 </div>
 
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
