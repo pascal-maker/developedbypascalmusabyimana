@@ -56,8 +56,7 @@ export default function Home() {
               Full-Stack Developer.
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-            I have 3 years of experience building and designing software.
-             Currently, I love to work on web and  mobile applications or computer-vision related projects using technologies like React, Laravel, React-native , OPENCV, Ultralytics, Yolov8, Objective-C, Java ,Javascript Firebase and Swift.
+            I have 3 years of experience in software development, with a focus on web and mobile applications and computer-vision related projects. I am proficient in React, Laravel, React-Native, OpenCV, Ultralytics, YOLOv8, Objective-C, Java, JavaScript, Firebase, and Swift.
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">     
     <a href="https://twitter.com/pascalmusabyim1?lang=en">< FaXTwitter/></a>
@@ -124,7 +123,7 @@ I have worked with experienced developers across the world who worked at Faceboo
               <p className="text-gray-800 py-1">Wordpress</p>
               <p className="text-gray-800 py-1">Laravel</p>
               <p className="text-gray-800 py-1">React-Native</p  > 
-              <p className="text-gray-800 py-1">OPENCV</p  > 
+              <p className="text-gray-800 py-1">OpenCV</p  > 
               <p className="text-gray-800 py-1">Yolov8</p  > 
               <p className="text-gray-800 py-1">Ultralytics</p  > 
               <p className="text-gray-800 py-1">nextjs</p  > 
