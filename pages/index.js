@@ -15,38 +15,14 @@ import web1 from "../public/vex-oh.png";
 import web2 from "../public/lovia.jpg";
 import web3 from "../public/mysite.png";
 import nextConfig from '../next.config.js';
-import alanBtn from "@alan-ai/alan-sdk-web";
 
-// Define the filter function here
-function filter(value) {
-  // Your filtering logic here
-  console.log('Filtering:', value);
-}
+
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
   const { publicPath } = nextConfig;
 
-  useEffect(() => {
-    // Alan AI integration code
-    var alanBtnInstance = alanBtn({
-      key: 'd501d0662e8b58268af62758b96035122e956eca572e1d8b807a3e2338fdd0dc/stage',
-      onCommand: function (commandData) {
-        if (commandData && commandData.command === 'openURL') {
-          if (commandData.target === '_blank') {
-            window.open(commandData.url, '_newtab' + Math.floor(Math.random() * 999999));
-          } else {
-            window.location.href = commandData.url;
-          }
-        } else if (commandData && commandData.command === 'filterPortfolio') {
-          filter(commandData.value); // Use the filter function
-        }
-      },
-      rootEl: document.getElementById('alan-btn'),
-    });
-  }, []); // Make sure to add dependencies as needed
-
-  // Rest of your component code
+  
 
   return (
     <div className={darkMode ? "dark" : ""}>
