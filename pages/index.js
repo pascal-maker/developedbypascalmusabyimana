@@ -13,7 +13,7 @@ import consulting from "../public/consulting.png";
 import Image from "next/image";
 import web1 from "../public/vex-oh.png";
 import web2 from "../public/lovia.jpg";
-import web3 from "../public/boxingvideoscreenshot.png";
+import web3 from "../public/boxingscreenshot.png";
 import {FaXTwitter} from 'react-icons/fa6';
 import {FaEnvelope} from 'react-icons/fa6';
 FaXTwitter
