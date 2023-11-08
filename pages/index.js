@@ -13,7 +13,7 @@ import consulting from "../public/consulting.png";
 import Image from "next/image";
 import web1 from "../public/vex-oh.png";
 import web2 from "../public/lovia.jpg";
-import web3 from "../public/mysite.png";
+import web3 from "../public/boxingvideoscreenshot.png";
 import {FaXTwitter} from 'react-icons/fa6';
 import {FaEnvelope} from 'react-icons/fa6';
 FaXTwitter
@@ -105,6 +105,8 @@ I have worked with experienced developers across the world who worked at Faceboo
               <p className="text-gray-800 py-1">PHP</p>
               <p className="text-gray-800 py-1">Node Js</p>
               <p className="text-gray-800 py-1">Kotlin</p>
+              <p className="text-gray-800 py-1">Python</p>
+
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={code} width={100} height={100} alt="" />
