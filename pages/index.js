@@ -214,7 +214,7 @@ I have worked with experienced developers across the world who worked at Faceboo
             <div className="basis-1/3 flex-1">
               <Image
                 className="rounded-lg object-cover"
-                width={"300%"}
+                width={"200%"}
                 height={"100%"}
                 layout="responsive"
                 src={web5}
