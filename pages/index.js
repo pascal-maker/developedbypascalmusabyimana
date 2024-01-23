@@ -14,6 +14,8 @@ import Image from "next/image";
 import web1 from "../public/vex-oh.png";
 import web2 from "../public/lovia.jpg";
 import web3 from "../public/boxingscreenshot.png";
+import web4 from "../public/footage.png";
+import web5 from "../public/heatmap.jpg";
 import {FaXTwitter} from 'react-icons/fa6';
 import {FaEnvelope} from 'react-icons/fa6';
 FaXTwitter
@@ -170,7 +172,7 @@ I have worked with experienced developers across the world who worked at Faceboo
               <Image
                 className="rounded-lg object-cover"
                 width={"200%"}
-                height={"200%"}
+                height={"100%"}
                 layout="responsive"
                 src={web1}
                 alt=""
@@ -181,7 +183,7 @@ I have worked with experienced developers across the world who worked at Faceboo
               <Image
                 className="rounded-lg object-cover"
                 width={"200%"}
-                height={"200%"}
+                height={"100%"}
                 layout="responsive"
                 src={web2}
                 alt=""
@@ -194,6 +196,28 @@ I have worked with experienced developers across the world who worked at Faceboo
                 height={"100%"}
                 layout="responsive"
                 src={web3}
+                alt=""
+              />
+            </div>
+            
+            <div className="basis-1/3 flex-1">
+              <Image
+                className="rounded-lg object-cover"
+                width={"300%"}
+                height={"100%"}
+                layout="responsive"
+                src={web4}
+                alt=""
+              />
+            </div>
+
+            <div className="basis-1/3 flex-1">
+              <Image
+                className="rounded-lg object-cover"
+                width={"300%"}
+                height={"100%"}
+                layout="responsive"
+                src={web5}
                 alt=""
               />
             </div>
