@@ -18,10 +18,25 @@ import web4 from "../public/footage.png";
 import web5 from "../public/heatmap.jpg";
 import {FaXTwitter} from 'react-icons/fa6';
 import {FaEnvelope} from 'react-icons/fa6';
+import React, { useEffect } from 'react';
+
 FaXTwitter
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
+  useEffect(() => {
+    // Load the ChatbotKit widget script asynchronously
+    const script = document.createElement('script');
+    script.src = "https://static.chatbotkit.com/integrations/widget/v2.js";
+    script.setAttribute('id', 'chatbotkit-widget');
+    script.setAttribute('data-widget', 'clsuhjt670jvj2j0v4g0aroah');
+    script.async = true;
+    document.head.appendChild(script);
 
+    // Cleanup
+    return () => {
+      document.head.removeChild(script);
+    };
+  }, []);
   return (
     <div className={darkMode ? "dark" : ""}>
       <Head>
