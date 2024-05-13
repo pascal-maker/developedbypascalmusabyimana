@@ -1,5 +1,6 @@
 import Head from "next/head";
 import {
+  
   AiFillLinkedin,
   AiFillGithub,
 } from "react-icons/ai";
@@ -15,11 +16,14 @@ import web2 from "../public/lovia.jpg";
 import web3 from "../public/segmentfetus.png";
 import web4 from "../public/footage.png";
 import web5 from "../public/twofetussgemnted.png";
-import { FaXTwitter, FaEnvelope } from 'react-icons/fa';
+import {FaXTwitter} from 'react-icons/fa6';
+import {FaEnvelope} from 'react-icons/fa6';
+import React, { useEffect } from 'react';
 
+FaXTwitter
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
-
+ 
   return (
     <div className={darkMode ? "dark" : ""}>
       <Head>
@@ -56,14 +60,16 @@ export default function Home() {
               Full-Stack Developer.
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-              I have 3 years of experience in software development, with a focus on web and mobile applications and computer-vision related projects. I am proficient in React, Laravel, React-Native, OpenCV, Ultralytics, YOLOv8, Objective-C, Java, JavaScript, Firebase, and Swift.
+            I have 3 years of experience in software development, with a focus on web and mobile applications and computer-vision related projects. I am proficient in React, Laravel, React-Native, OpenCV, Ultralytics, YOLOv8, Objective-C, Java, JavaScript, Firebase, and Swift.
             </p>
-            <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-              <a href="https://twitter.com/pascalmusabyim1?lang=en"><FaXTwitter /></a>
-              <a href="https://be.linkedin.com/in/pascal-musabyimana-573b66178"><AiFillLinkedin /></a>
-              <a href="https://github.com/pascal-maker"><AiFillGithub /></a>
-              <a href="https://pascal-musa@hotmail.com"><FaEnvelope /></a>
-            </div>
+            <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">     
+    <a href="https://twitter.com/pascalmusabyim1?lang=en">< FaXTwitter/></a>
+ <a href="https://be.linkedin.com/in/pascal-musabyimana-573b66178"><AiFillLinkedin /></a>
+    <a href="https://github.com/pascal-maker"><AiFillGithub /></a>
+    <a href="https://pascal-musa@hotmail.com"><FaEnvelope /></a>
+
+</div>
+
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
               <Image src={deved} layout="fill" objectFit="cover" alt="" />
             </div>
@@ -73,10 +79,10 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">About Me</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I&apos;m a student at the University of Ghent in my freetime I like to build websites and apps. Let me help you fullfill your dream as an entrepeneur. If you need a landing page , an e-commerce app , a brand new website for your marketing agency or anything else that you desire I&apos;m your guy. Lets work together to fulfill your potential to the fullest.
+            I&apos;m a student at the University of Ghent in my freetime I like to build websites and apps. Let me help you fullfill your dream as an entrepeneur. If you need a landing page , an e-commerce app , a brand new website for your marketing agency or anything else that you desire I&apos;m your guy. Lets work together to fulfill your potential to the fullest.
 
 
-              I have worked with experienced developers across the world who worked at Facebook, Twitter, Pinterest and Adobe. When it comes to user-experience or design I always try to enhance the user experience based on your target audience. This includes the ability to create something that will appeal to the user.
+I have worked with experienced developers across the world who worked at Facebook, Twitter, Pinterest and Adobe. When it comes to user-experience or design I always try to enhance the user experience based on your target audience. This includes the ability to create something that will appeal to the user.
               Worked on cool   <span className="text-teal-500">startup projects </span>
               and collaborated with talented people to create digital products
               for both business and consumer use.
@@ -104,6 +110,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">Node Js</p>
               <p className="text-gray-800 py-1">Kotlin</p>
               <p className="text-gray-800 py-1">Python</p>
+
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={code} width={100} height={100} alt="" />
@@ -121,12 +128,16 @@ export default function Home() {
               <p className="text-gray-800 py-1">React</p>
               <p className="text-gray-800 py-1">Wordpress</p>
               <p className="text-gray-800 py-1">Laravel</p>
-              <p className="text-gray-800 py-1">React-Native</p>
-              <p className="text-gray-800 py-1">OpenCV</p>
-              <p className="text-gray-800 py-1">Yolov8</p>
-              <p className="text-gray-800 py-1">Ultralytics</p>
-              <p className="text-gray-800 py-1">nextjs</p>
-            </div>
+              <p className="text-gray-800 py-1">React-Native</p  > 
+              <p className="text-gray-800 py-1">OpenCV</p  > 
+              <p className="text-gray-800 py-1">Yolov8</p  > 
+              <p className="text-gray-800 py-1">Ultralytics</p  > 
+              <p className="text-gray-800 py-1">nextjs</p  > 
+
+
+
+      
+           </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={consulting} width={100} height={100} alt="" />
               <h3 className="text-lg font-medium pt-8 pb-2 ">Consulting</h3>
@@ -167,6 +178,7 @@ export default function Home() {
                 layout="responsive"
                 src={web1}
                 alt=""
+
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -189,7 +201,7 @@ export default function Home() {
                 alt=""
               />
             </div>
-
+            
             <div className="basis-1/3 flex-1">
               <Image
                 className="rounded-lg object-cover"
@@ -211,10 +223,10 @@ export default function Home() {
                 alt=""
               />
             </div>
-
+            
           </div>
         </section>
       </main>
     </div>
-  );
+  ); 
 }
