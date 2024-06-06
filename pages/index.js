@@ -15,7 +15,7 @@ import web1 from "../public/vex-oh.png";
 import web2 from "../public/lovia.jpg";
 import web3 from "../public/segmentfetus.png";
 import web4 from "../public/footage.png";
-import web5 from "../public/twofetussgemnted.png";
+import web5 from "../public/val_batch0_labels.jpg";
 import {FaXTwitter} from 'react-icons/fa6';
 import {FaEnvelope} from 'react-icons/fa6';
 import React, { useEffect } from 'react';
