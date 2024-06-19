@@ -11,7 +11,7 @@ import code from "../public/code.png";
 import design from "../public/fullstack.jpg";
 import consulting from "../public/consulting.png";
 import Image from "next/image";
-import web1 from "../public/vex-oh.png";
+import web1 from "../public/kanyesax.png";
 import web2 from "../public/lovia.jpg";
 import web3 from "../public/segmentfetus.png";
 import web4 from "../public/footage.png";
