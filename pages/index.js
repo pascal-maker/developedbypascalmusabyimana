@@ -6,7 +6,7 @@ import {
 } from "react-icons/ai";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
-import deved from "../public/pascalamsterdam.jpg";
+import deved from "../public/pascalwhitepants.jpg";
 import code from "../public/code.png";
 import design from "../public/fullstack.jpg";
 import consulting from "../public/consulting.png";
@@ -15,7 +15,8 @@ import web1 from "../public/kanyesax.png";
 import web2 from "../public/lovia.jpg";
 import web3 from "../public/segmentfetus.png";
 import web4 from "../public/footage.png";
-import web5 from "../public/val_batch0_labels.jpg";
+import web5 from "../public/braintumordetection.jpg";
+import web6 from "../public/sam2.png";
 import { FaXTwitter, FaEnvelope } from 'react-icons/fa6';
 import React from 'react';
 import { CopilotKit } from "@copilotkit/react-core";
@@ -77,13 +78,17 @@ export default function Home() {
                   <a href="https://pascal-musa@hotmail.com"><FaEnvelope /></a>
                 </div>
 
+                
                 <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-                  <Image src={deved} layout="fill" objectFit="cover" alt="" />
-                </div>
-              </div>
-            </section>
-            <section>
-              <div>
+  <Image 
+    src={deved} 
+    layout="fill" 
+    objectFit="cover" 
+    alt="" 
+    sizes="(max-width: 768px) 80px, (max-width: 1024px) 96px, 192px" // Updated sizes 
+  />
+</div>
+
                 <h3 className="text-3xl py-1 dark:text-white ">About Me</h3>
                 <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
                   I&apos;m a student at the University of Ghent in my freetime I like to build websites and apps. Let me help you fullfill your dream as an entrepeneur. If you need a landing page , an e-commerce app , a brand new website for your marketing agency or anything else that you desire I&apos;m your guy. Lets work together to fulfill your potential to the fullest.
@@ -163,15 +168,15 @@ export default function Home() {
               <div>
                 <h3 className="text-3xl py-1 dark:text-white ">Portfolio</h3>
                 <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-                  Since the beginning of my journey as a freelance developer, I have
-                  done remote work for <span className="text-teal-500">agencies </span>
-                  consulted for <span className="text-teal-500">startups </span>
+                  Since the beginning of my journey as a hobbyist web-developer, I have
+                  made cool projects <span className="text-teal-500">using OpenCV </span>
+                  developed  with  <span className="text-teal-500">top-notch frameworks </span>
                   and collaborated with talented people to create digital products
-                  for both business and consumer use.
+                  consumer use.
                 </p>
                 <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
                   I offer from a wide range of services, including brand design,
-                  programming and teaching.
+                  programming and consulting.
                 </p>
               </div>
               <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
@@ -198,8 +203,8 @@ export default function Home() {
                 <div className="basis-1/3 flex-1">
                   <Image
                     className="rounded-lg object-cover"
-                    width={"100%"}
-                    height={"100%"}
+                    width={"80%"}
+                    height={"80%"}
                     layout="responsive"
                     src={web3}
                     alt=""
@@ -225,6 +230,16 @@ export default function Home() {
                     alt=""
                   />
                 </div>
+                <div className="basis-1/3 flex-1">
+                  <Image
+                    className="rounded-lg object-cover"
+                    width={"100%"}
+                    height={"100%"}
+                    layout="responsive"
+                    src={web6}
+                    alt=""
+                  />
+                </div>
               </div>
             </section>
           </main>
@@ -232,4 +247,4 @@ export default function Home() {
       </CopilotSidebar>
     </CopilotKit>
   );
-}
+} 
