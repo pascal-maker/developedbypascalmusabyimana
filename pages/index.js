@@ -221,25 +221,40 @@ export default function Home() {
                   />
                 </div>
                 <div className="basis-1/3 flex-1">
-                  <Image
-                    className="rounded-lg object-cover"
-                    width={"100%"}
-                    height={"100%"}
-                    layout="responsive"
-                    src={web5}
-                    alt=""
-                  />
-                </div>
-                <div className="basis-1/3 flex-1">
-                  <Image
-                    className="rounded-lg object-cover"
-                    width={"100%"}
-                    height={"100%"}
-                    layout="responsive"
-                    src={web6}
-                    alt=""
-                  />
-                </div>
+  <a
+    href="https://medium.com/@pascalmusa/brain-tumor-detection-yolov8-vs-sam-2-7a19ad44efb4"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <Image
+      className="rounded-lg object-cover"
+      width={"100%"}
+      height={"100%"}
+      layout="responsive"
+      src={web5} // braintumordetection.jpg
+      alt="Brain Tumor Detection Article"
+      title="Read the article on Brain Tumor Detection"
+    />
+  </a>
+</div>
+<div className="basis-1/3 flex-1">
+  <a
+    href="https://medium.com/@pascalmusa/brain-tumor-detection-yolov8-vs-sam-2-7a19ad44efb4"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <Image
+      className="rounded-lg object-cover"
+      width={"100%"}
+      height={"100%"}
+      layout="responsive"
+      src={web6} // sam2.png
+      alt="Brain Tumor Detection Article"
+      title="Read the article on Brain Tumor Detection"
+    />
+  </a>
+</div>
+
               </div>
             </section>
           </main>

@@ -9,8 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@copilotkit/react-core": "^1.1.0",
-    "@copilotkit/react-ui": "^1.1.0",
+    "@copilotkit/react-core": "1.1.2",
+    "@copilotkit/react-textarea": "1.1.2",
+    "@copilotkit/react-ui": "1.1.2",
     "@mendable/search": "^0.0.206",
     "build": "^0.1.4",
     "firebase": "^10.7.2",
