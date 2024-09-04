@@ -200,61 +200,63 @@ export default function Home() {
                     alt=""
                   />
                 </div>
-                <div className="basis-1/3 flex-1">
-                  <Image
-                    className="rounded-lg object-cover"
-                    width={"80%"}
-                    height={"80%"}
-                    layout="responsive"
-                    src={web3}
-                    alt=""
-                  />
-                </div>
-                <div className="basis-1/3 flex-1">
-                  <Image
-                    className="rounded-lg object-cover"
-                    width={"100%"}
-                    height={"100%"}
-                    layout="responsive"
-                    src={web4}
-                    alt=""
-                  />
-                </div>
-                <div className="basis-1/3 flex-1">
-  <a
-    href="https://medium.com/@pascalmusa/brain-tumor-detection-yolov8-vs-sam-2-7a19ad44efb4"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    <Image
-      className="rounded-lg object-cover"
-      width={"100%"}
-      height={"100%"}
-      layout="responsive"
-      src={web5} // braintumordetection.jpg
-      alt="Brain Tumor Detection Article"
-      title="Read the article on Brain Tumor Detection"
-    />
-  </a>
-</div>
-<div className="basis-1/3 flex-1">
-  <a
-    href="https://medium.com/@pascalmusa/brain-tumor-detection-yolov8-vs-sam-2-7a19ad44efb4"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    <Image
-      className="rounded-lg object-cover"
-      width={"100%"}
-      height={"100%"}
-      layout="responsive"
-      src={web6} // sam2.png
-      alt="Brain Tumor Detection Article"
-      title="Read the article on Brain Tumor Detection"
-    />
-  </a>
-</div>
+                <a
+  href="https://www.linkedin.com/posts/pascal-musabyimana-573b66178_meta-computervision-segmentation-activity-7169017148386840576-4GCh?utm_source=share&utm_medium=member_desktop"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <Image
+    className="rounded-lg object-cover"
+    width={"100%"}
+    height={"100%"}
+    layout="responsive"
+    src={web3}
+    alt=""
+  />
+</a>
+                <a
+  href="https://www.linkedin.com/posts/pascal-musabyimana-573b66178_hey-linkedin-network-i-have-decided-activity-7153396537753030657-_Vzm?utm_source=share&utm_medium=member_desktop"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <Image
+    className="rounded-lg object-cover"
+    width={"100%"}
+    height={"100%"}
+    layout="responsive"
+    src={web4}
+    alt=""
+  />
+</a>
+                <a
+  href="https://medium.com/@pascalmusa/brain-tumor-detection-yolov8-vs-sam-2-7a19ad44efb4"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <Image
+    className="rounded-lg object-cover"
+    width={"100%"}
+    height={"100%"}
+    layout="responsive"
+    src={web5}
+    alt=""
+  />
+</a>
 
+<a
+  href="https://medium.com/@pascalmusa/brain-tumor-detection-yolov8-vs-sam-2-7a19ad44efb4"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <Image
+    className="rounded-lg object-cover"
+    width={"100%"}
+    height={"100%"}
+    layout="responsive"
+    src={web6}
+    alt=""
+  />
+</a>
               </div>
             </section>
           </main>
