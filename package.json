@@ -13,6 +13,7 @@
     "@copilotkit/react-textarea": "1.1.2",
     "@copilotkit/react-ui": "1.1.2",
     "@mendable/search": "^0.0.206",
+    "@mlc-ai/web-llm": "^0.2.64",
     "build": "^0.1.4",
     "firebase": "^10.7.2",
     "firebase-tools": "^13.0.3",
