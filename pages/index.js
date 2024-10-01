@@ -17,44 +17,9 @@ import web4 from "../public/footage.png";
 import web5 from "../public/braintumordetection.jpg";
 import web6 from "../public/sam2.png";
 import { FaXTwitter, FaEnvelope } from 'react-icons/fa6';
-import * as webllm from "@mlc-ai/web-llm";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
-  const [messages, setMessages] = useState([{ content: "You are a helpful AI agent helping users.", role: "system" }]);
-  const [currentMessage, setCurrentMessage] = useState("");
-  const [isGenerating, setIsGenerating] = useState(false);
-  const [usageStats, setUsageStats] = useState("");
-  const availableModels = webllm.prebuiltAppConfig.model_list.map(m => m.model_id);
-  const [selectedModel, setSelectedModel] = useState("Llama-3.1-8B-Instruct-q4f32_1-1k");
-
-  const onMessageSend = async () => {
-    if (currentMessage.trim() === "") return;
-    setMessages([...messages, { content: currentMessage, role: "user" }]);
-    setCurrentMessage("");
-    setIsGenerating(true);
-
-    const engine = new webllm.MLCEngine();
-    let generatedMessage = "";
-
-    try {
-      const completion = await engine.chat.completions.create({
-        stream: true,
-        messages: [...messages, { content: currentMessage, role: "user" }],
-        stream_options: { include_usage: true }
-      });
-
-      for await (const chunk of completion) {
-        generatedMessage += chunk.choices[0]?.delta.content || "";
-        setMessages(prevMessages => [...prevMessages, { content: generatedMessage, role: "assistant" }]);
-        if (chunk.usage) setUsageStats(chunk.usage);
-      }
-    } catch (err) {
-      console.error(err);
-    }
-
-    setIsGenerating(false);
-  };
 
   return (
     <div className={darkMode ? "dark" : ""}>
@@ -168,80 +133,77 @@ export default function Home() {
           </p>
           <div className="flex flex-col gap-10 lg:flex-row lg:flex-wrap">
             <a
-              href="https://www.linkedin.com/posts/pascal-musabyimana-573b66178_meta-computervision-segmentation-activity-7169017148386840576-4GCh?utm_source=share&utm_medium=member_desktop"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="https://www.linkedin.com/in/pascal-musabyimana-573b66178/overlay/1727034581247/single-media-viewer/?profileId=ACoAACoslacB56MwdRN6bL1P1uM5qLdxwYzUcg8"
               className="basis-1/3 flex-1"
             >
-              <Image src={web1} className="rounded-lg object-cover" width={100} height={100} alt="Project 1" />
-            </a>
-            <a
-              href="https://www.linkedin.com/posts/pascal-musabyimana-573b66178_hey-linkedin-network-i-have-decided-activity-7153396537753030657-_Vzm?utm_source=share&utm_medium=member_desktop"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="basis-1/3 flex-1"
-            >
-              <Image src={web2} className="rounded-lg object-cover" width={100} height={100} alt="Project 2" />
-            </a>
-            <a
-              href="https://www.linkedin.com/posts/pascal-musabyimana-573b66178_meta-computervision-segmentation-activity-7169017148386840576-4GCh?utm_source=share&utm_medium=member_desktop"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="basis-1/3 flex-1"
-            >
-              <Image src={web3} className="rounded-lg object-cover" width={100} height={100} alt="Project 3" />
-            </a>
-            <a
-              href="https://medium.com/@pascalmusa/brain-tumor-detection-yolov8-vs-sam-2-7a19ad44efb4"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="basis-1/3 flex-1"
-            >
-              <Image src={web4} className="rounded-lg object-cover" width={100} height={100} alt="Project 4" />
-            </a>
-            <a
-              href="https://medium.com/@pascalmusa/brain-tumor-detection-yolov8-vs-sam-2-7a19ad44efb4"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="basis-1/3 flex-1"
-            >
-              <Image src={web5} className="rounded-lg object-cover" width={100} height={100} alt="Project 5" />
-            </a>
-            <a
-              href="https://medium.com/@pascalmusa/brain-tumor-detection-yolov8-vs-sam-2-7a19ad44efb4"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="basis-1/3 flex-1"
-            >
-              <Image src={web6} className="rounded-lg object-cover" width={100} height={100} alt="Project 6" />
-            </a>
-          </div>
-        </section>
-
-        {/* Chat Component */}
-        <section className="chat-section py-10">
-          <h3 className="text-3xl py-1 dark:text-white">Chat with Me</h3>
-          <div className="chat-container border p-5 rounded-lg">
-            <div className="messages max-h-60 overflow-y-auto">
-              {messages.map((msg, index) => (
-                <div key={index} className={`message ${msg.role}`}>
-                  <p className={`role ${msg.role}`}>{msg.role === "user" ? "You" : "Assistant"}</p>
-                  <p className="content">{msg.content}</p>
-                </div>
-              ))}
-            </div>
-            <div className="input-area flex mt-4">
-              <input
-                type="text"
-                value={currentMessage}
-                onChange={(e) => setCurrentMessage(e.target.value)}
-                className="flex-grow border p-2 rounded-lg"
-                placeholder="Type your message..."
+              <Image
+                src={web1}
+                className="rounded-lg object-cover"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+                alt=""
               />
-              <button onClick={onMessageSend} className="bg-teal-500 text-white px-4 py-2 rounded-lg ml-2">
-                Send
-              </button>
-            </div>
+            </a>
+            <a href="https://lovia.org" className="basis-1/3 flex-1">
+              <Image
+                src={web2}
+                className="rounded-lg object-cover"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+                alt=""
+              />
+            </a>
+            <a href="https://drive.google.com/file/d/1kiJVG0M2E_YjGI_SLPFVJS7Psf-QAX49/view?usp=sharing" className="basis-1/3 flex-1">
+              <Image
+                src={web3}
+                className="rounded-lg object-cover"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+                alt=""
+              />
+            </a>
+            <a
+              href="https://drive.google.com/file/d/1oiC_eSjZl-WPQskQv5CTxlc0Zwx4hvtC/view?usp=sharing"
+              className="basis-1/3 flex-1"
+            >
+              <Image
+                src={web4}
+                className="rounded-lg object-cover"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+                alt=""
+              />
+            </a>
+            <a
+              href="https://github.com/pascal-maker"
+              className="basis-1/3 flex-1"
+            >
+              <Image
+                src={web5}
+                className="rounded-lg object-cover"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+                alt=""
+              />
+            </a>
+            <a
+              href="https://drive.google.com/file/d/1Czp2VLBgEAHjjJWrq_M9k76v27zVvoSt/view?usp=sharing"
+              className="basis-1/3 flex-1"
+            >
+              <Image
+                src={web6}
+                className="rounded-lg object-cover"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+                alt=""
+              />
+            </a>
           </div>
         </section>
       </main>
