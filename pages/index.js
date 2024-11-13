@@ -42,7 +42,7 @@ export default function Home() {
               <li>
                 <a
                   className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                  href="https://www.linkedin.com/in/pascal-musabyimana-573b66178/overlay/1727034581247/single-media-viewer/?profileId=ACoAACoslacB56MwdRN6bL1P1uM5qLdxwYzUcg8"
+                  href="https://www.linkedin.com/in/pascal-musabyimana-573b66178/o"
                 >
                   Resume
                 </a>
@@ -145,7 +145,7 @@ export default function Home() {
                 alt=""
               />
             </a>
-            <a href="https://lovia.org" className="basis-1/3 flex-1">
+            <a href="" className="basis-1/3 flex-1">
               <Image
                 src={web2}
                 className="rounded-lg object-cover"
@@ -155,7 +155,7 @@ export default function Home() {
                 alt=""
               />
             </a>
-            <a href="https://drive.google.com/file/d/1kiJVG0M2E_YjGI_SLPFVJS7Psf-QAX49/view?usp=sharing" className="basis-1/3 flex-1">
+            <a href="https://www.linkedin.com/posts/pascal-musabyimana-573b66178_meta-computervision-segmentation-activity-7169017148386840576-4GCh?utm_source=share&utm_medium=member_desktop" className="basis-1/3 flex-1">
               <Image
                 src={web3}
                 className="rounded-lg object-cover"
@@ -166,7 +166,7 @@ export default function Home() {
               />
             </a>
             <a
-              href="https://drive.google.com/file/d/1oiC_eSjZl-WPQskQv5CTxlc0Zwx4hvtC/view?usp=sharing"
+              href="https://www.linkedin.com/posts/pascal-musabyimana-573b66178_hey-linkedin-network-i-have-decided-activity-7153396537753030657-_Vzm?utm_source=share&utm_medium=member_desktop"
               className="basis-1/3 flex-1"
             >
               <Image
@@ -179,7 +179,7 @@ export default function Home() {
               />
             </a>
             <a
-              href="https://github.com/pascal-maker"
+              href="https://medium.com/@pascalmusa/brain-tumor-detection-yolov8-vs-sam-2-7a19ad44efb4"
               className="basis-1/3 flex-1"
             >
               <Image
@@ -192,7 +192,7 @@ export default function Home() {
               />
             </a>
             <a
-              href="https://drive.google.com/file/d/1Czp2VLBgEAHjjJWrq_M9k76v27zVvoSt/view?usp=sharing"
+              href="https://medium.com/@pascalmusa/brain-tumor-detection-yolov8-vs-sam-2-7a19ad44efb4"
               className="basis-1/3 flex-1"
             >
               <Image
