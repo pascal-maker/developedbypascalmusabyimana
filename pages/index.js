@@ -11,7 +11,7 @@ import design from "../public/fullstack.jpg";
 import consulting from "../public/consulting.png";
 import Image from "next/image";
 import web1 from "../public/kanyesax.png";
-import web2 from "../public/lovia.jpg";
+import web2 from "../public/rwanda.png";
 import web3 from "../public/segmentfetus.png";
 import web4 from "../public/footage.png";
 import web5 from "../public/braintumordetection.jpg";
@@ -78,7 +78,7 @@ export default function Home() {
 
             <h3 className="text-3xl py-1 dark:text-white">About Me</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I&apos;m a student at the University of Ghent. In my free time, I like to build websites and apps. Let me help you fulfill your dream as an entrepreneur. If you need a landing page, an e-commerce app, or a brand new website for your marketing agency, I&apos;m your guy. Let’s work together to fulfill your potential to the fullest.
+              I&apos;m a student at Howest University of Applied Sciences. In my free time, I like to build websites and apps. Let me help you fulfill your dream as an entrepreneur. If you need a landing page, an e-commerce app, or a brand new website for your marketing agency, I&apos;m your guy. Let’s work together to fulfill your potential to the fullest.
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               I have worked with experienced developers across the world who worked at Facebook, Twitter, Pinterest, and Adobe. When it comes to user experience or design, I always try to enhance the user experience based on your target audience.
@@ -108,13 +108,13 @@ export default function Home() {
               <p className="py-2">Do you have an idea for your next great startup? Let’s make it a reality.</p>
               <h4 className="py-4 text-teal-600">Tools & Technologies I Use</h4>
               <p className="text-gray-800 py-1">React</p>
-              <p className="text-gray-800 py-1">React Native</p>
+              <p className="text-gray-800 py-1">Kaggle</p>
               <p className="text-gray-800 py-1">Next.js</p>
-              <p className="text-gray-800 py-1">Laravel</p>
-              <p className="text-gray-800 py-1">OpenCV</p>
+              <p className="text-gray-800 py-1">Numpy</p>
+              <p className="text-gray-800 py-1">Pytorch</p>
               <p className="text-gray-800 py-1">Ultralytics</p>
               <p className="text-gray-800 py-1">TensorFlow</p>
-              <p className="text-gray-800 py-1">Flask</p>
+              <p className="text-gray-800 py-1">Huggingface</p>
               <p className="text-gray-800 py-1">Firebase</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
