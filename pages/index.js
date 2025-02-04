@@ -11,7 +11,7 @@ import design from "../public/fullstack.jpg";
 import consulting from "../public/consulting.png";
 import Image from "next/image";
 import web1 from "../public/kanyesax.png";
-import web2 from "../public/rwanda.png";
+import web2 from "../public/mriscans.png";
 import web3 from "../public/segmentfetus.png";
 import web4 from "../public/footage.png";
 import web5 from "../public/braintumordetection.jpg";
