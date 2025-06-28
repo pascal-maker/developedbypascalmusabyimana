@@ -78,7 +78,7 @@ export default function Home() {
 
             <h3 className="text-3xl py-1 dark:text-white">About Me</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I&apos;m a student at Howest University of Applied Sciences. In my free time, I like to build websites and apps. Let me help you fulfill your dream as an entrepreneur. If you need a landing page, an e-commerce app, or a brand new website for your marketing agency, I&apos;m your guy. Let’s work together to fulfill your potential to the fullest.
+              I&apos;m a student at Howest University of Applied Sciences. In my free time, I like to build websites and apps. Let me help you fulfill your dream as an entrepreneur. If you need a landing page, an e-commerce app, or a brand new website for your marketing agency, I&apos;m your guy. Let&apos;s work together to fulfill your potential to the fullest.
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               I have worked with experienced developers across the world who worked at Facebook, Twitter, Pinterest, and Adobe. When it comes to user experience or design, I always try to enhance the user experience based on your target audience.
@@ -105,7 +105,7 @@ export default function Home() {
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={code} width={100} height={100} alt="" />
               <h3 className="text-lg font-medium pt-8 pb-2">Frameworks</h3>
-              <p className="py-2">Do you have an idea for your next great startup? Let’s make it a reality.</p>
+              <p className="py-2">Do you have an idea for your next great startup? Let&apos;s make it a reality.</p>
               <h4 className="py-4 text-teal-600">Tools & Technologies I Use</h4>
               <p className="text-gray-800 py-1">React</p>
               <p className="text-gray-800 py-1">Kaggle</p>
@@ -120,9 +120,9 @@ export default function Home() {
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={consulting} width={100} height={100} alt="" />
               <h3 className="text-lg font-medium pt-8 pb-2">Consulting</h3>
-              <p className="py-2">I’m here to help you with your software development needs.</p>
+              <p className="py-2">I&apos;m here to help you with your software development needs.</p>
               <h4 className="py-4 text-teal-600">Let&apos;s Talk</h4>
-              <p className="text-gray-800 py-1">I’m available for freelance work. Contact me!</p>
+              <p className="text-gray-800 py-1">I&apos;m available for freelance work. Contact me!</p>
             </div>
           </div>
 
@@ -204,6 +204,24 @@ export default function Home() {
                 alt=""
               />
             </a>
+          </div>
+
+          {/* Hugging Face Dashboard */}
+          <div className="mt-10">
+            <h3 className="text-2xl py-4 dark:text-white">AI Agents Comparison Dashboard</h3>
+            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200 mb-6">
+              Interactive dashboard comparing different AI agents and their performance metrics.
+            </p>
+            <div className="w-full overflow-hidden rounded-lg shadow-lg">
+              <iframe 
+                src="https://huggingface.co/spaces/pascal-maker/agentscomparison-dashboard" 
+                width="100%" 
+                height="500" 
+                frameBorder="0"
+                title="AI Agents Comparison Dashboard"
+                className="w-full"
+              />
+            </div>
           </div>
         </section>
       </main>
