@@ -84,21 +84,29 @@ export default function Home() {
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               I have worked with experienced developers across the world who worked at Facebook, Twitter, Pinterest, and Adobe. I have also collaborated with companies such as Easypost . When it comes to user experience or design, I always try to enhance the user experience based on your target audience.
             </p>
-            <div className="flex justify-center items-center py-4">
+            <div className="flex justify-center items-center py-4 border-2 border-gray-300 rounded-lg p-4">
               <a 
                 href="https://www.linkedin.com/posts/pascal-musabyimana-573b66178_hey-linkedin-network-long-time-ago-activity-7345483853223931904-btig?utm_source=share&utm_medium=member_desktop&rcm=ACoAACoslacB56MwdRN6bL1P1uM5qLdxwYzUcg8"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:opacity-80 transition-opacity duration-200"
               >
-                <Image 
+                <img 
                   src="/0x0.png" 
                   width={100} 
                   height={100} 
                   alt="Easypost Company" 
-                  className="rounded-lg cursor-pointer"
+                  className="rounded-lg cursor-pointer border border-gray-400"
+                  onError={(e) => {
+                    console.error('Image failed to load:', e.target.src);
+                    e.target.style.display = 'none';
+                  }}
+                  onLoad={() => {
+                    console.log('Image loaded successfully');
+                  }}
                 />
               </a>
+              <p className="text-sm text-gray-500 ml-4">Easypost Logo</p>
             </div>
           </div>
           
