@@ -16,6 +16,7 @@ import web3 from "../public/segmentfetus.png";
 import web4 from "../public/footage.png";
 import web5 from "../public/braintumordetection.jpg";
 import web6 from "../public/sam2.png";
+import companyImage from "../public/0x0.png";
 import { FaXTwitter, FaEnvelope } from 'react-icons/fa6';
 
 export default function Home() {
@@ -81,8 +82,24 @@ export default function Home() {
               I&apos;m a student at Howest University of Applied Sciences. In my free time, I like to build websites and apps. Let me help you fulfill your dream as an entrepreneur. If you need a landing page, an e-commerce app, or a brand new website for your marketing agency, I&apos;m your guy. Let&apos;s work together to fulfill your potential to the fullest.
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I have worked with experienced developers across the world who worked at Facebook, Twitter, Pinterest, and Adobe. When it comes to user experience or design, I always try to enhance the user experience based on your target audience.
+              I have worked with experienced developers across the world who worked at Facebook, Twitter, Pinterest, and Adobe. I have also collaborated with companies such as Easypost . When it comes to user experience or design, I always try to enhance the user experience based on your target audience.
             </p>
+            <div className="flex justify-center items-center py-4">
+              <a 
+                href="https://www.linkedin.com/posts/pascal-musabyimana-573b66178_hey-linkedin-network-long-time-ago-activity-7345483853223931904-btig?utm_source=share&utm_medium=member_desktop&rcm=ACoAACoslacB56MwdRN6bL1P1uM5qLdxwYzUcg8"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:opacity-80 transition-opacity duration-200"
+              >
+                <Image 
+                  src={companyImage} 
+                  width={100} 
+                  height={100} 
+                  alt="Easypost Company" 
+                  className="rounded-lg cursor-pointer"
+                />
+              </a>
+            </div>
           </div>
           
           {/* Skills Section */}
