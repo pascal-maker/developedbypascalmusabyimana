@@ -12,7 +12,7 @@ import consulting from "../public/consulting.png";
 import Image from "next/image";
 import web1 from "../public/kanyesax.png";
 import web2 from "../public/mriscans.png";
-import web3 from "../public/segmentfetus.png";
+import web3 from "../public/0x0.png";
 import web4 from "../public/footage.png";
 import web5 from "../public/braintumordetection.jpg";
 import web6 from "../public/sam2.png";
@@ -91,19 +91,12 @@ export default function Home() {
                 rel="noopener noreferrer"
                 className="hover:opacity-80 transition-opacity duration-200"
               >
-                <img 
-                  src="/0x0.png" 
+                <Image 
+                  src={web3} 
                   width={100} 
                   height={100} 
                   alt="Easypost Company" 
                   className="rounded-lg cursor-pointer border border-gray-400"
-                  onError={(e) => {
-                    console.error('Image failed to load:', e.target.src);
-                    e.target.style.display = 'none';
-                  }}
-                  onLoad={() => {
-                    console.log('Image loaded successfully');
-                  }}
                 />
               </a>
               <p className="text-sm text-gray-500 ml-4">Easypost Logo</p>
