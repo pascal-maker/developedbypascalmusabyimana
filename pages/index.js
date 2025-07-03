@@ -55,10 +55,10 @@ export default function Home() {
               Pascal Musabyimana
             </h2>
             <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
-              Full-Stack Developer.
+              Computer Vision Enthousiast.
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-              I am a computer vision enthusiast with 3 years of experience in software development, specializing in web and mobile applications. I use Ultralytics, Label Studio, Docker, React, Laravel, React-Native, OpenCV, YOLOv8, Objective-C, Java, JavaScript, and Swift.
+              I am a computer vision enthusiast. I use Ultralytics, Label Studio, Docker, React, OpenCV, YOLOv8, Objective-C, JavaScript, and Swift.
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
               <a href="https://twitter.com/pascalmusabyim1?lang=en"><FaXTwitter /></a>
@@ -113,10 +113,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">JavaScript</p>
               <p className="text-gray-800 py-1">Objective-C</p>
               <p className="text-gray-800 py-1">Swift</p>
-              <p className="text-gray-800 py-1">Java</p>
-              <p className="text-gray-800 py-1">PHP</p>
               <p className="text-gray-800 py-1">Node.js</p>
-              <p className="text-gray-800 py-1">Kotlin</p>
               <p className="text-gray-800 py-1">Python</p>
               <p className="text-gray-800 py-1">TypeScript</p>
             </div>
