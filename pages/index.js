@@ -79,10 +79,10 @@ export default function Home() {
 
             <h3 className="text-3xl py-1 dark:text-white">About Me</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I&apos;m a student at Howest University of Applied Sciences. In my free time, I like to build websites and apps. Let me help you fulfill your dream as an entrepreneur. If you need a landing page, an e-commerce app, or a brand new website for your marketing agency, I&apos;m your guy. Let&apos;s work together to fulfill your potential to the fullest.
+              I&apos;m a student at Howest University of Applied Sciences. In my free time, I like to build websites and apps. Let me help you fulfill your dream as an entrepreneur. If you need a landing page, a working proof of concept of a  computer-vision project, or a brand new website for your marketing agency, I&apos;m your guy. Let&apos;s work together to fulfill your potential to the fullest.
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I have worked with  a experienced developer  who worked at Meta X Pinterest, and Adobe. I have also collaborated with companies such as Easypost . When it comes to user experience or design, I always try to enhance the user experience based on your target audience.
+              I have worked with  a experienced developer  who worked at Meta. I have also collaborated with companies such as Easypost . When it comes to user experience or design, I always try to enhance the user experience based on your target audience.
             </p>
             <div className="flex justify-center items-center py-4 border-2 border-gray-300 rounded-lg p-4">
               <a 
