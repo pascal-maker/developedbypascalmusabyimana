@@ -58,7 +58,7 @@ export default function Home() {
               Computer Vision Enthousiast.
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-              I am a computer vision enthusiast. I use Ultralytics, Label Studio, Docker, React, OpenCV, YOLOv8,Pytorch,Tensorflow,Huggingface,Kaggle and Python.
+              I am a computer vision enthousiast. I use Ultralytics, Label Studio, Docker, React, OpenCV, YOLOv8,Pytorch,Tensorflow,Huggingface,Kaggle and Python.
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
               <a href="https://twitter.com/pascalmusabyim1?lang=en"><FaXTwitter /></a>
@@ -82,7 +82,7 @@ export default function Home() {
               I&apos;m a student at Howest University of Applied Sciences. In my free time, I like to build websites and apps. Let me help you fulfill your dream as an entrepreneur. If you need a landing page, an e-commerce app, or a brand new website for your marketing agency, I&apos;m your guy. Let&apos;s work together to fulfill your potential to the fullest.
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I have worked with experienced developers across the world who worked at Facebook, Twitter, Pinterest, and Adobe. I have also collaborated with companies such as Easypost . When it comes to user experience or design, I always try to enhance the user experience based on your target audience.
+              I have worked with  a experienced developer  who worked at Meta X Pinterest, and Adobe. I have also collaborated with companies such as Easypost . When it comes to user experience or design, I always try to enhance the user experience based on your target audience.
             </p>
             <div className="flex justify-center items-center py-4 border-2 border-gray-300 rounded-lg p-4">
               <a 
@@ -115,7 +115,6 @@ export default function Home() {
               <p className="text-gray-800 py-1">Swift</p>
               <p className="text-gray-800 py-1">Node.js</p>
               <p className="text-gray-800 py-1">Python</p>
-              <p className="text-gray-800 py-1">TypeScript</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={code} width={100} height={100} alt="" />
@@ -130,7 +129,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">Ultralytics</p>
               <p className="text-gray-800 py-1">TensorFlow</p>
               <p className="text-gray-800 py-1">Huggingface</p>
-              <p className="text-gray-800 py-1">Firebase</p>
+              <p className="text-gray-800 py-1">Cursor</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={consulting} width={100} height={100} alt="" />
