@@ -108,7 +108,7 @@ export default function Home() {
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={design} width={100} height={100} alt="" />
               <h3 className="text-lg font-medium pt-8 pb-2">Coding Languages</h3>
-              <p className="py-2">Using these coding languages to create your dream website or mobile app.</p>
+              <p className="py-2">Coding Languages I have used to build my projects.</p>
               <h4 className="py-4 text-teal-600">Languages I Use</h4>
               <p className="text-gray-800 py-1">JavaScript</p>
               <p className="text-gray-800 py-1">Objective-C</p>
@@ -120,7 +120,7 @@ export default function Home() {
               <Image src={code} width={100} height={100} alt="" />
               <h3 className="text-lg font-medium pt-8 pb-2">Frameworks</h3>
               <p className="py-2">Do you have an idea for your next great startup? Let&apos;s make it a reality.</p>
-              <h4 className="py-4 text-teal-600">Tools & Technologies I Use</h4>
+              <h4 className="py-4 text-teal-600">Tools & Technologies I Use/Have Used</h4>
               <p className="text-gray-800 py-1">React</p>
               <p className="text-gray-800 py-1">Kaggle</p>
               <p className="text-gray-800 py-1">Next.js</p>
