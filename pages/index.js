@@ -16,7 +16,7 @@ import web3 from "../public/segmentfetus.png";
 import web4 from "../public/footage.png";
 import web5 from "../public/braintumordetection.jpg";
 import web6 from "../public/sam2.png";
-// ... existing code ...
+import easypostLogo from "../public/0x0.png";
 import { FaXTwitter, FaEnvelope } from 'react-icons/fa6';
 
 export default function Home() {
@@ -92,7 +92,7 @@ export default function Home() {
                 className="hover:opacity-80 transition-opacity duration-200"
               >
                 <Image 
-                  src={web3} 
+                  src={easypostLogo} 
                   width={100} 
                   height={100} 
                   alt="Easypost Company" 
