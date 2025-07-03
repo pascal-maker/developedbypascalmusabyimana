@@ -224,23 +224,7 @@ export default function Home() {
             </a>
           </div>
 
-          {/* Hugging Face Dashboard */}
-          <div className="mt-10">
-            <h3 className="text-2xl py-4 dark:text-white">AI Agents Comparison Dashboard</h3>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200 mb-6">
-              Interactive dashboard comparing different AI agents and their performance metrics.
-            </p>
-            <div className="w-full overflow-hidden rounded-lg shadow-lg">
-              <iframe 
-                src="https://huggingface.co/spaces/pascal-maker/agentscomparison-dashboard" 
-                width="100%" 
-                height="500" 
-                frameBorder="0"
-                title="AI Agents Comparison Dashboard"
-                className="w-full"
-              />
-            </div>
-          </div>
+
         </section>
       </main>
     </div>
