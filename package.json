@@ -13,7 +13,7 @@
     "@copilotkit/react-textarea": "1.4.1",
     "@copilotkit/react-ui": "1.4.1",
     "@mendable/search": "^0.0.206",
-    "@mlc-ai/web-llm": "^0.2.64",
+    "@mlc-ai/web-llm": "^0.2.79",
     "build": "^0.1.4",
     "moment": "^2.30.1",
     "next": "^15.2.3",

@@ -667,10 +667,10 @@
     html-react-parser "^4.2.0"
     posthog-js "^1.45.1"
 
-"@mlc-ai/web-llm@^0.2.64":
-  version "0.2.64"
-  resolved "https://registry.yarnpkg.com/@mlc-ai/web-llm/-/web-llm-0.2.64.tgz#5a8843de2d63dd81d8477a81f505a97614e385ca"
-  integrity sha512-h1m8D4GSz88bu8ElAkHf12B3YnkXnkVuof9A14mkWFGPtWNKB0dUC2lEySZXdrTy6CAvIKMuxMT6oM5naRKQ8A==
+"@mlc-ai/web-llm@^0.2.79":
+  version "0.2.79"
+  resolved "https://registry.yarnpkg.com/@mlc-ai/web-llm/-/web-llm-0.2.79.tgz#a0dcfc54bf5d843090be67fd9b168e4de087bc93"
+  integrity sha512-Hy1ZHQ0o2bZGZoVnGK48+fts/ZSKwLe96xjvqL/6C59Mem9HoHTcFE07NC2E23mRmhd01tL655N6CPeYmwWgwQ==
   dependencies:
     loglevel "^1.9.1"
 
