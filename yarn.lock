@@ -158,14 +158,25 @@
     "@scarf/scarf" "^1.3.0"
     untruncate-json "^0.0.1"
 
-"@copilotkit/react-textarea@1.4.1":
-  version "1.4.1"
-  resolved "https://registry.yarnpkg.com/@copilotkit/react-textarea/-/react-textarea-1.4.1.tgz#154e28d9e5006da375ed2b78e6b0353adf40ba76"
-  integrity sha512-JJl2WClpmC/S2Cb+QOAd10gsBYzbhU6jBBkVLMotVhbRvMV9XSOPLSLwl5DzA9c/Zx1EOhWUlJkj6k8NoHmmWg==
+"@copilotkit/react-core@1.9.1":
+  version "1.9.1"
+  resolved "https://registry.yarnpkg.com/@copilotkit/react-core/-/react-core-1.9.1.tgz#462e2851d71d2276db79059262d4558a3be9672e"
+  integrity sha512-HYKGoCg7smf6RqPv4pCGPHk8MKNMCL4UwHoK8DiJI796ck1KINoqh/Ieu55FYISVlLF6JXmvRM0mMgSRKjpNKw==
   dependencies:
-    "@copilotkit/react-core" "1.4.1"
-    "@copilotkit/runtime-client-gql" "1.4.1"
-    "@copilotkit/shared" "1.4.1"
+    "@copilotkit/runtime-client-gql" "1.9.1"
+    "@copilotkit/shared" "1.9.1"
+    "@scarf/scarf" "^1.3.0"
+    react-markdown "^8.0.7"
+    untruncate-json "^0.0.1"
+
+"@copilotkit/react-textarea@1.9.1":
+  version "1.9.1"
+  resolved "https://registry.yarnpkg.com/@copilotkit/react-textarea/-/react-textarea-1.9.1.tgz#6f14a80d0f7273680b9dbb349bc9a665ede4e3fe"
+  integrity sha512-voZQYJl/y551yZxM0PLIOZhHli7FLzQG7J6xswELvkjaelAVB1QI1Kkg3lX/Jq7BUE7McXYkhNW0LJinLoGoAw==
+  dependencies:
+    "@copilotkit/react-core" "1.9.1"
+    "@copilotkit/runtime-client-gql" "1.9.1"
+    "@copilotkit/shared" "1.9.1"
     "@emotion/css" "^11.11.2"
     "@emotion/react" "^11.11.1"
     "@emotion/styled" "^11.11.0"
@@ -180,7 +191,6 @@
     lodash.merge "^4.6.2"
     lucide-react "^0.274.0"
     material-icons "^1.13.10"
-    react-dom "^18.2.0"
     slate "^0.94.1"
     slate-history "^0.93.0"
     slate-react "^0.98.1"
@@ -210,6 +220,16 @@
     untruncate-json "^0.0.1"
     urql "^4.1.0"
 
+"@copilotkit/runtime-client-gql@1.9.1":
+  version "1.9.1"
+  resolved "https://registry.yarnpkg.com/@copilotkit/runtime-client-gql/-/runtime-client-gql-1.9.1.tgz#894f10b3ea2cd250d7632528825f733a1777560d"
+  integrity sha512-RHCKGO1aeiZ8tn917lVnOjTLqfONddhbhchypcgInSQ3X0IeFyIB0ntn3vE3YosDO8lNdbptVHjABobZJWx2Aw==
+  dependencies:
+    "@copilotkit/shared" "1.9.1"
+    "@urql/core" "^5.0.3"
+    untruncate-json "^0.0.1"
+    urql "^4.1.0"
+
 "@copilotkit/shared@1.4.1":
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/@copilotkit/shared/-/shared-1.4.1.tgz#d279fdb79269ef1caa14a21b3891a27c55c3cac3"
@@ -217,6 +237,18 @@
   dependencies:
     "@segment/analytics-node" "^2.1.2"
     chalk "4.1.2"
+    uuid "^10.0.0"
+    zod "^3.23.3"
+    zod-to-json-schema "^3.23.5"
+
+"@copilotkit/shared@1.9.1":
+  version "1.9.1"
+  resolved "https://registry.yarnpkg.com/@copilotkit/shared/-/shared-1.9.1.tgz#8a509412b65b94ab8d2df6815d34317b44db1e64"
+  integrity sha512-Jrj4F2Vd26a17eWJhGT9zYD1Z1ccxW+Woo71FTXz4H5XU4vsGaAgSc42rjzKbhji5pwayRPx932EZSZ+n5b2yA==
+  dependencies:
+    "@segment/analytics-node" "^2.1.2"
+    chalk "4.1.2"
+    graphql "^16.8.1"
     uuid "^10.0.0"
     zod "^3.23.3"
     zod-to-json-schema "^3.23.5"
@@ -3276,6 +3308,11 @@ graphemer@^1.4.0:
   resolved "https://registry.yarnpkg.com/graphemer/-/graphemer-1.4.0.tgz#fb2f1d55e0e3a1849aeffc90c4fa0dd53a0e66c6"
   integrity sha512-EtKwoO6kxCL9WO5xipiHTZlSzBm7WLT627TqC/uVRd0HKmq8NXyebnNYxDoBi7wt8eTWrUrKXCOVaFq9x1kgag==
 
+graphql@^16.8.1:
+  version "16.11.0"
+  resolved "https://registry.yarnpkg.com/graphql/-/graphql-16.11.0.tgz#96d17f66370678027fdf59b2d4c20b4efaa8a633"
+  integrity sha512-mS1lbMsxgQj6hge1XZ6p7GPhbrtFwUFYi3wRzXAC/FmYnyXMTvvI3td3rjmQ2u8ewXueaSvRPWaEcgVVOT9Jnw==
+
 has-bigints@^1.0.1, has-bigints@^1.0.2:
   version "1.0.2"
   resolved "https://registry.npmjs.org/has-bigints/-/has-bigints-1.0.2.tgz"
@@ -5226,7 +5263,7 @@ raw-body@2.3.3:
     iconv-lite "0.4.23"
     unpipe "1.0.0"
 
-react-dom@^18.2.0, react-dom@^18.3.1:
+react-dom@^18.3.1:
   version "18.3.1"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-18.3.1.tgz#c2265d79511b57d479b3dd3fdfa51536494c5cb4"
   integrity sha512-5m4nQKp+rZRb09LNH59GM4BxTh9251/ylbKIbpe7TpGxfJ+9kv6BLkLBXIjjspbgbnIBNqlI23tRnTWT0snUIw==
