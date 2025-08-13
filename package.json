@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@copilotkit/react-core": "1.9.1",
+    "@copilotkit/react-core": "1.9.3",
     "@copilotkit/react-textarea": "1.9.1",
     "@copilotkit/react-ui": "1.9.1",
     "@mendable/search": "^0.0.206",
