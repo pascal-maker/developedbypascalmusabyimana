@@ -65,6 +65,7 @@ export default function Home() {
               <a href="https://be.linkedin.com/in/pascal-musabyimana-573b66178"><AiFillLinkedin /></a>
               <a href="https://github.com/pascal-maker"><AiFillGithub /></a>
               <a href="https://pascal-musa@hotmail.com"><FaEnvelope /></a>
+              <a href="https://huggingface.co/pascal-maker" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform duration-200 text-4xl" title="Hugging Face Profile">🤗</a>
             </div>
 
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
