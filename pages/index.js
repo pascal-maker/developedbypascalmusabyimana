@@ -58,7 +58,7 @@ export default function Home() {
               Computer Vision Enthousiast.
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-              I am a computer vision enthousiast. I use Ultralytics, Label Studio, Docker, React, OpenCV, YOLOv8,Pytorch,Tensorflow,Huggingface,Kaggle and Python.
+              I am a Computer Vision Enthousiast. I use Ultralytics, Label Studio, Docker, React, OpenCV, YOLOv8,Pytorch,Tensorflow,Huggingface,Kaggle and Python.
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
               <a href="https://twitter.com/pascalmusabyim1?lang=en"><FaXTwitter /></a>
@@ -116,6 +116,8 @@ export default function Home() {
               <p className="text-gray-800 py-1">Swift</p>
               <p className="text-gray-800 py-1">Node.js</p>
               <p className="text-gray-800 py-1">Python</p>
+              <p className="text-gray-800 py-1">C#</p>
+
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={code} width={100} height={100} alt="" />
@@ -123,14 +125,20 @@ export default function Home() {
               <p className="py-2">Do you have an idea for your next great startup? Let&apos;s make it a reality.</p>
               <h4 className="py-4 text-teal-600">Tools & Technologies I Use/Have Used</h4>
               <p className="text-gray-800 py-1">React</p>
-              <p className="text-gray-800 py-1">Kaggle</p>
+              <p className="text-gray-800 py-1">Node.js</p>
+              <p className="text-gray-800 py-1">React-Native</p>
+
               <p className="text-gray-800 py-1">Next.js</p>
-              <p className="text-gray-800 py-1">Numpy</p>
+              <p className="text-gray-800 py-1">Langflow</p>
               <p className="text-gray-800 py-1">Pytorch</p>
               <p className="text-gray-800 py-1">Ultralytics</p>
               <p className="text-gray-800 py-1">TensorFlow</p>
               <p className="text-gray-800 py-1">Huggingface</p>
-              <p className="text-gray-800 py-1">Cursor</p>
+              <p className="text-gray-800 py-1">Agentarium</p>
+              <p className="text-gray-800 py-1">Pydantic</p>
+              <p className="text-gray-800 py-1">Swarm</p>
+
+
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={consulting} width={100} height={100} alt="" />
