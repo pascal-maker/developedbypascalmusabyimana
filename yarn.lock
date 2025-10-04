@@ -12,10 +12,10 @@
   resolved "https://registry.yarnpkg.com/@aashutoshrathi/word-wrap/-/word-wrap-1.2.6.tgz#bd9154aec9983f77b3a034ecaa015c2e4201f6cf"
   integrity sha512-1Yjs2SvM8TflER/OD3cOjhWWOZb58A2t7wpE2S9XfBYTiIl+XFhQG2bjy4Pu1I+EAlCNUzRDYDdFwFYUKvXcIA==
 
-"@ag-ui/core@^0.0.30":
-  version "0.0.30"
-  resolved "https://registry.yarnpkg.com/@ag-ui/core/-/core-0.0.30.tgz#2cd9235d39e99cccc65ba85b8892f3a8dcf5749a"
-  integrity sha512-cBukbc2O0qMKi/BKix6Exld5zSqGKR72376KA6NZNQz/xYAiPNhmK40VX77d/hyblhtXT3BlBGrYmda9V4ETlw==
+"@ag-ui/core@^0.0.36":
+  version "0.0.36"
+  resolved "https://registry.yarnpkg.com/@ag-ui/core/-/core-0.0.36.tgz#4f63041515d54a216842dc4479a4ef094972028e"
+  integrity sha512-uYUrzw6uxuw4qVQ61mdSeiG0mFh2n/VAWmWsWzwETDuhqJZT7rFmd07IajcFWcyItMr1wjqxFDdlklucAyEYNA==
   dependencies:
     rxjs "7.8.1"
     zod "^3.22.4"
@@ -156,13 +156,13 @@
   resolved "https://registry.npmjs.org/@colors/colors/-/colors-1.5.0.tgz"
   integrity sha512-ooWCrlZP11i8GImSjTHYHLkvFDP48nS4+204nGb1RiX/WXYHmJA2III9/e2DWVabCESdW7hBAEzHRqUn9OUVvQ==
 
-"@copilotkit/react-core@1.10.2":
-  version "1.10.2"
-  resolved "https://registry.yarnpkg.com/@copilotkit/react-core/-/react-core-1.10.2.tgz#6f0ce56876ed97b7c98af3c90dd7e5c649e7bba8"
-  integrity sha512-D9KenEFK378yV/yH0InrliBsTJigjjBCNqibTf+OmO36EL/CdmNLRZxfqb8xlPrYZThYNRlYW6Eg1tGDRjh+fQ==
+"@copilotkit/react-core@1.10.3":
+  version "1.10.3"
+  resolved "https://registry.yarnpkg.com/@copilotkit/react-core/-/react-core-1.10.3.tgz#4c7a0c7ad39c72b0873d256bf0c09117fc96dbed"
+  integrity sha512-m/R/cUENBlXP7+E7TUImVPqmgrHtMeYd3/qhOK3hQY4LqCtbEG5ju5HkEy/QbmVX5tNn/Wo8ti0kwK9tXX6lzA==
   dependencies:
-    "@copilotkit/runtime-client-gql" "1.10.2"
-    "@copilotkit/shared" "1.10.2"
+    "@copilotkit/runtime-client-gql" "1.10.3"
+    "@copilotkit/shared" "1.10.3"
     "@scarf/scarf" "^1.3.0"
     react-markdown "^8.0.7"
     untruncate-json "^0.0.1"
@@ -220,12 +220,12 @@
     remark-gfm "^4.0.1"
     remark-math "^6.0.0"
 
-"@copilotkit/runtime-client-gql@1.10.2":
-  version "1.10.2"
-  resolved "https://registry.yarnpkg.com/@copilotkit/runtime-client-gql/-/runtime-client-gql-1.10.2.tgz#4e62d3b7dd0fdee814907502a0314830c143805c"
-  integrity sha512-XxTzRiNhp+o2tt5MuDoJyLjjWw50uI0PzYh4iGfkck2mMsSes1MAJW70PmKtPKMNLTdbbU4ZvWlKCkTLGlrutQ==
+"@copilotkit/runtime-client-gql@1.10.3":
+  version "1.10.3"
+  resolved "https://registry.yarnpkg.com/@copilotkit/runtime-client-gql/-/runtime-client-gql-1.10.3.tgz#adbab3922c7326f91f738d2e15dbbfa58ccbd17d"
+  integrity sha512-c0pmm9vyK1gy7hYP8F7Me97CpfxUY7OBdWvI2JQh7oll4abL3w5IbpKIEr/UNOGGJFdgz0NJE8eDOwnadQ51ww==
   dependencies:
-    "@copilotkit/shared" "1.10.2"
+    "@copilotkit/shared" "1.10.3"
     "@urql/core" "^5.0.3"
     untruncate-json "^0.0.1"
     urql "^4.1.0"
@@ -240,12 +240,12 @@
     untruncate-json "^0.0.1"
     urql "^4.1.0"
 
-"@copilotkit/shared@1.10.2":
-  version "1.10.2"
-  resolved "https://registry.yarnpkg.com/@copilotkit/shared/-/shared-1.10.2.tgz#256d25d238ca1c5f7021fa2a53afb061a3fd47f6"
-  integrity sha512-hUtdoqbFQLq3NFAlNPOGrSjvC5fuwpYFp1zzSN/yPuNXYqxS/QL5RG9pnA/pxq1ax+8Fgb9RFOI0aif+uIF7/A==
+"@copilotkit/shared@1.10.3":
+  version "1.10.3"
+  resolved "https://registry.yarnpkg.com/@copilotkit/shared/-/shared-1.10.3.tgz#02300340df15a391d986dc0763af0e872999b2e1"
+  integrity sha512-LCgqfWfIfC97jCS6AMXVsuCXHK4CUqet7XXKJ9SB8gXR/kiDciP543gtoXznQK6L5ZP5FGDEH0KtPdNd/2Mcgg==
   dependencies:
-    "@ag-ui/core" "^0.0.30"
+    "@ag-ui/core" "^0.0.36"
     "@segment/analytics-node" "^2.1.2"
     chalk "4.1.2"
     graphql "^16.8.1"
