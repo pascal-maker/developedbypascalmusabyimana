@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { useRouter } from "next/router";
 import {
   AiFillLinkedin,
   AiFillGithub,
@@ -21,6 +22,8 @@ import { FaXTwitter, FaEnvelope } from 'react-icons/fa6';
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
+  const router = useRouter();
+  const resumeHref = `${router.basePath}/Pascal_Musabyimana_ModernTech_CV.pdf`;
 
   return (
     <div className={darkMode ? "dark" : ""}>
@@ -43,7 +46,7 @@ export default function Home() {
               <li>
                 <a
                   className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                  href="/Pascal_Musabyimana_ModernTech_CV.pdf"
+                  href={resumeHref}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
