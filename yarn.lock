@@ -156,17 +156,6 @@
   resolved "https://registry.npmjs.org/@colors/colors/-/colors-1.5.0.tgz"
   integrity sha512-ooWCrlZP11i8GImSjTHYHLkvFDP48nS4+204nGb1RiX/WXYHmJA2III9/e2DWVabCESdW7hBAEzHRqUn9OUVvQ==
 
-"@copilotkit/react-core@1.10.4":
-  version "1.10.4"
-  resolved "https://registry.yarnpkg.com/@copilotkit/react-core/-/react-core-1.10.4.tgz#5b8e053ac4d762051f67ca08449a6bdb0afdb5f9"
-  integrity sha512-x2C3eeD92zcmE2GM5/z3kxuRbxBoU1VyAxJHc02Up7TFqxEKM276Azj9OSffhRWrmx5n2tQJt3RWtH2MUEcJ4Q==
-  dependencies:
-    "@copilotkit/runtime-client-gql" "1.10.4"
-    "@copilotkit/shared" "1.10.4"
-    "@scarf/scarf" "^1.3.0"
-    react-markdown "^8.0.7"
-    untruncate-json "^0.0.1"
-
 "@copilotkit/react-core@1.10.5":
   version "1.10.5"
   resolved "https://registry.yarnpkg.com/@copilotkit/react-core/-/react-core-1.10.5.tgz#84e125cd283753ba4d33326a832ff1a704d2e0e3"
@@ -178,25 +167,14 @@
     react-markdown "^8.0.7"
     untruncate-json "^0.0.1"
 
-"@copilotkit/react-core@1.9.1":
-  version "1.9.1"
-  resolved "https://registry.yarnpkg.com/@copilotkit/react-core/-/react-core-1.9.1.tgz#462e2851d71d2276db79059262d4558a3be9672e"
-  integrity sha512-HYKGoCg7smf6RqPv4pCGPHk8MKNMCL4UwHoK8DiJI796ck1KINoqh/Ieu55FYISVlLF6JXmvRM0mMgSRKjpNKw==
+"@copilotkit/react-textarea@1.10.5":
+  version "1.10.5"
+  resolved "https://registry.yarnpkg.com/@copilotkit/react-textarea/-/react-textarea-1.10.5.tgz#eed5de291373c426a01b662ab7769767e519b7eb"
+  integrity sha512-F571k2VWu5JaCDBSzRtIi8dhgEqqSBy9RGa4eoouNEi0QiC9dWiPs8wT06wLemXqaczbx97djDI3fjXFwwlc1g==
   dependencies:
-    "@copilotkit/runtime-client-gql" "1.9.1"
-    "@copilotkit/shared" "1.9.1"
-    "@scarf/scarf" "^1.3.0"
-    react-markdown "^8.0.7"
-    untruncate-json "^0.0.1"
-
-"@copilotkit/react-textarea@1.9.1":
-  version "1.9.1"
-  resolved "https://registry.yarnpkg.com/@copilotkit/react-textarea/-/react-textarea-1.9.1.tgz#6f14a80d0f7273680b9dbb349bc9a665ede4e3fe"
-  integrity sha512-voZQYJl/y551yZxM0PLIOZhHli7FLzQG7J6xswELvkjaelAVB1QI1Kkg3lX/Jq7BUE7McXYkhNW0LJinLoGoAw==
-  dependencies:
-    "@copilotkit/react-core" "1.9.1"
-    "@copilotkit/runtime-client-gql" "1.9.1"
-    "@copilotkit/shared" "1.9.1"
+    "@copilotkit/react-core" "1.10.5"
+    "@copilotkit/runtime-client-gql" "1.10.5"
+    "@copilotkit/shared" "1.10.5"
     "@emotion/css" "^11.11.2"
     "@emotion/react" "^11.11.1"
     "@emotion/styled" "^11.11.0"
@@ -231,16 +209,6 @@
     remark-gfm "^4.0.1"
     remark-math "^6.0.0"
 
-"@copilotkit/runtime-client-gql@1.10.4":
-  version "1.10.4"
-  resolved "https://registry.yarnpkg.com/@copilotkit/runtime-client-gql/-/runtime-client-gql-1.10.4.tgz#d0e6815bb7c820aa7530eca8951d4c76621508ab"
-  integrity sha512-wOo5gzR7EiVEBpyBYYq84o5fb0OQ1pcJ8AzPZWEDc4GaV2xLDogjd7gKrP2zw5tV4tGV5HizHpo5UiE4kHZAgw==
-  dependencies:
-    "@copilotkit/shared" "1.10.4"
-    "@urql/core" "^5.0.3"
-    untruncate-json "^0.0.1"
-    urql "^4.1.0"
-
 "@copilotkit/runtime-client-gql@1.10.5":
   version "1.10.5"
   resolved "https://registry.yarnpkg.com/@copilotkit/runtime-client-gql/-/runtime-client-gql-1.10.5.tgz#6261a0a1fa7912b143827199b71ccc605d6d4197"
@@ -251,47 +219,12 @@
     untruncate-json "^0.0.1"
     urql "^4.1.0"
 
-"@copilotkit/runtime-client-gql@1.9.1":
-  version "1.9.1"
-  resolved "https://registry.yarnpkg.com/@copilotkit/runtime-client-gql/-/runtime-client-gql-1.9.1.tgz#894f10b3ea2cd250d7632528825f733a1777560d"
-  integrity sha512-RHCKGO1aeiZ8tn917lVnOjTLqfONddhbhchypcgInSQ3X0IeFyIB0ntn3vE3YosDO8lNdbptVHjABobZJWx2Aw==
-  dependencies:
-    "@copilotkit/shared" "1.9.1"
-    "@urql/core" "^5.0.3"
-    untruncate-json "^0.0.1"
-    urql "^4.1.0"
-
-"@copilotkit/shared@1.10.4":
-  version "1.10.4"
-  resolved "https://registry.yarnpkg.com/@copilotkit/shared/-/shared-1.10.4.tgz#b732efd8057731f7404ead9bfe7782ffa8d8d8bc"
-  integrity sha512-vvF3vG03e5OZcUd0x7FdpIPRx60W3vyiK+0maGyEZoU1xUlBJbxaCkAED6gAH3JBZl/BZNWoJKsYDxiQUY2V3A==
-  dependencies:
-    "@ag-ui/core" "^0.0.37"
-    "@segment/analytics-node" "^2.1.2"
-    chalk "4.1.2"
-    graphql "^16.8.1"
-    uuid "^10.0.0"
-    zod "^3.23.3"
-    zod-to-json-schema "^3.23.5"
-
 "@copilotkit/shared@1.10.5":
   version "1.10.5"
   resolved "https://registry.yarnpkg.com/@copilotkit/shared/-/shared-1.10.5.tgz#524a1a5b23a17ffcdcf358893b407e72b9ffec36"
   integrity sha512-rByAxlhhn7nrV3do2pG+axD83UQTC502CjvOBIu3QkhP/1as9KLgTtKOr6kyY2wlIa7o6jvC+BeVRB/YfbZSBg==
   dependencies:
     "@ag-ui/core" "^0.0.37"
-    "@segment/analytics-node" "^2.1.2"
-    chalk "4.1.2"
-    graphql "^16.8.1"
-    uuid "^10.0.0"
-    zod "^3.23.3"
-    zod-to-json-schema "^3.23.5"
-
-"@copilotkit/shared@1.9.1":
-  version "1.9.1"
-  resolved "https://registry.yarnpkg.com/@copilotkit/shared/-/shared-1.9.1.tgz#8a509412b65b94ab8d2df6815d34317b44db1e64"
-  integrity sha512-Jrj4F2Vd26a17eWJhGT9zYD1Z1ccxW+Woo71FTXz4H5XU4vsGaAgSc42rjzKbhji5pwayRPx932EZSZ+n5b2yA==
-  dependencies:
     "@segment/analytics-node" "^2.1.2"
     chalk "4.1.2"
     graphql "^16.8.1"
