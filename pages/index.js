@@ -6,7 +6,7 @@ import {
 } from "react-icons/ai";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
-import deved from "../public/pascalwhitepants.jpg";
+import deved from "../public/barca.jpeg";
 import code from "../public/code.png";
 import design from "../public/fullstack.jpg";
 import consulting from "../public/consulting.png";
@@ -74,12 +74,12 @@ export default function Home() {
             </div>
 
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image 
-                src={deved} 
-                layout="fill" 
-                objectFit="cover" 
-                alt="" 
-                sizes="(max-width: 768px) 80px, (max-width: 1024px) 96px, 192px" 
+              <Image
+                src={deved}
+                layout="fill"
+                objectFit="cover"
+                alt=""
+                sizes="(max-width: 768px) 80px, (max-width: 1024px) 96px, 192px"
               />
             </div>
 
@@ -91,24 +91,24 @@ export default function Home() {
               I have worked with  a experienced developer  who worked at Meta. I have also collaborated with companies such as Easypost . When it comes to user experience or design, I always try to enhance the user experience based on your target audience.
             </p>
             <div className="flex justify-center items-center py-4 border-2 border-gray-300 rounded-lg p-4">
-              <a 
+              <a
                 href="https://www.linkedin.com/posts/pascal-musabyimana-573b66178_hey-linkedin-network-long-time-ago-activity-7345483853223931904-btig?utm_source=share&utm_medium=member_desktop&rcm=ACoAACoslacB56MwdRN6bL1P1uM5qLdxwYzUcg8"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:opacity-80 transition-opacity duration-200"
               >
-                <Image 
-                  src={easypostLogo} 
-                  width={100} 
-                  height={100} 
-                  alt="Easypost Company" 
+                <Image
+                  src={easypostLogo}
+                  width={100}
+                  height={100}
+                  alt="Easypost Company"
                   className="rounded-lg cursor-pointer border border-gray-400"
                 />
               </a>
               <p className="text-sm text-gray-500 ml-4">Easypost Logo</p>
             </div>
           </div>
-          
+
           {/* Skills Section */}
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
