@@ -66,7 +66,7 @@ export default function Home() {
               I am a Computer Vision Enthousiast. I use Ultralytics, Label Studio, Docker, React, OpenCV, YOLOv8,Pytorch,Tensorflow,Huggingface,Kaggle and Python.
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-              <a href="https://twitter.com/pascalmusabyim1?lang=en"><FaXTwitter /></a>
+              <a href="https://x.com/pascalmusa51964?s=11"><FaXTwitter /></a>
               <a href="https://be.linkedin.com/in/pascal-musabyimana-573b66178"><AiFillLinkedin /></a>
               <a href="https://github.com/pascal-maker"><AiFillGithub /></a>
               <a href="https://pascal-musa@hotmail.com"><FaEnvelope /></a>
