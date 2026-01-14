@@ -272,10 +272,10 @@
     react-markdown "^8.0.7"
     untruncate-json "^0.0.1"
 
-"@copilotkit/react-textarea@1.50.1":
-  version "1.50.1"
-  resolved "https://registry.yarnpkg.com/@copilotkit/react-textarea/-/react-textarea-1.50.1.tgz#8676d81dae10511ab8fe8e5566226ba20d103d2d"
-  integrity sha512-pbGUY0s/Z/Zm402SCz58j42sJP8TwMm3FJSsmwQ0xrJx1kjmOH8b0WRqhKHZSDYT/SOgtRjV3IiNLqCwB5LLiA==
+"@copilotkit/react-textarea@1.10.5":
+  version "1.10.5"
+  resolved "https://registry.yarnpkg.com/@copilotkit/react-textarea/-/react-textarea-1.10.5.tgz#eed5de291373c426a01b662ab7769767e519b7eb"
+  integrity sha512-F571k2VWu5JaCDBSzRtIi8dhgEqqSBy9RGa4eoouNEi0QiC9dWiPs8wT06wLemXqaczbx97djDI3fjXFwwlc1g==
   dependencies:
     "@copilotkit/react-core" "1.50.1"
     "@copilotkit/runtime-client-gql" "1.50.1"
@@ -299,15 +299,15 @@
     slate-react "^0.98.1"
     tailwind-merge "^1.13.2"
 
-"@copilotkit/react-ui@1.10.6":
-  version "1.10.6"
-  resolved "https://registry.yarnpkg.com/@copilotkit/react-ui/-/react-ui-1.10.6.tgz#050555b17b60a39ff079259ebc31c2d7caeb5bf9"
-  integrity sha512-eNIbZKMvBVZqlAR4fqkmZRIYIt8WhwZOxfVJVwMD9nfmWdtatmxrOLecyDiPk/hkq2o/8s2/rubaZSMK6m+GHQ==
+"@copilotkit/react-ui@1.50.1":
+  version "1.50.1"
+  resolved "https://registry.yarnpkg.com/@copilotkit/react-ui/-/react-ui-1.50.1.tgz#9579201a301084d9e5343865c22b708666c9b849"
+  integrity sha512-JO6Nf3GTqFWjB3WR0ClSgnf8284QUJxVh/djcUOUZ24NkjglZAYORAMzvwIBJlcOZFxMk1AkvRAU56HWNCUZ5Q==
   dependencies:
-    "@copilotkit/react-core" "1.10.6"
-    "@copilotkit/runtime-client-gql" "1.10.6"
-    "@copilotkit/shared" "1.10.6"
-    "@headlessui/react" "^2.1.3"
+    "@copilotkit/react-core" "1.50.1"
+    "@copilotkit/runtime-client-gql" "1.50.1"
+    "@copilotkit/shared" "1.50.1"
+    "@headlessui/react" "^2.2.9"
     react-markdown "^10.1.0"
     react-syntax-highlighter "^15.6.1"
     rehype-raw "^7.0.0"
@@ -334,10 +334,10 @@
     untruncate-json "^0.0.1"
     urql "^4.1.0"
 
-"@copilotkit/shared@1.10.6":
-  version "1.10.6"
-  resolved "https://registry.yarnpkg.com/@copilotkit/shared/-/shared-1.10.6.tgz#3f794dc020a0bbd376d697e840da70c65a6a4e41"
-  integrity sha512-56Rltf4fDBqCpl1ZXARypt5NdE4LTg3tGPPLurZpgPmm31Lv5EAHpfjC7I55vt9A0mXWlTCHtCrpiaAlTyzGJw==
+"@copilotkit/shared@1.10.5":
+  version "1.10.5"
+  resolved "https://registry.yarnpkg.com/@copilotkit/shared/-/shared-1.10.5.tgz#524a1a5b23a17ffcdcf358893b407e72b9ffec36"
+  integrity sha512-rByAxlhhn7nrV3do2pG+axD83UQTC502CjvOBIu3QkhP/1as9KLgTtKOr6kyY2wlIa7o6jvC+BeVRB/YfbZSBg==
   dependencies:
     "@ag-ui/core" "^0.0.37"
     "@segment/analytics-node" "^2.1.2"
@@ -346,6 +346,74 @@
     uuid "^10.0.0"
     zod "^3.23.3"
     zod-to-json-schema "^3.23.5"
+
+"@copilotkit/shared@1.50.1":
+  version "1.50.1"
+  resolved "https://registry.yarnpkg.com/@copilotkit/shared/-/shared-1.50.1.tgz#424e8c2cc91bfde6e2f4d1486f50ecbd48834dac"
+  integrity sha512-Nk4saaXxVRq3VCTXfmE5hi46hmNkHZGCtb8H38LjZEFDR6lv0b2cnOWEhfkGzSjUwfY+XcZmwrGef7mMl/XI/w==
+  dependencies:
+    "@ag-ui/core" "^0.0.42"
+    "@segment/analytics-node" "^2.1.2"
+    chalk "4.1.2"
+    graphql "^16.8.1"
+    uuid "^10.0.0"
+    zod "^3.23.3"
+
+"@copilotkitnext/core@0.0.33":
+  version "0.0.33"
+  resolved "https://registry.yarnpkg.com/@copilotkitnext/core/-/core-0.0.33.tgz#c0b4f5e86181cda6a72d92d85a594075a7391dc4"
+  integrity sha512-uD+hYatV9JeDS0BMVL1YyFuFiISYjTKfYk4Mfc9Zmb7DfN2RD9ASvpWG/zQ2WJrrdQtj/pCfjPKil07Pv7cRMg==
+  dependencies:
+    "@ag-ui/client" "0.0.42"
+    "@copilotkitnext/shared" "0.0.33"
+    rxjs "7.8.1"
+    zod "^3.25.75"
+    zod-to-json-schema "^3.24.6"
+
+"@copilotkitnext/react@0.0.33":
+  version "0.0.33"
+  resolved "https://registry.yarnpkg.com/@copilotkitnext/react/-/react-0.0.33.tgz#b6081d8f531be52ca8afe306ea1c306c06c77c3a"
+  integrity sha512-7opH+B9SLmN6fv8b5w0OCdk3xIQmNjhPM6lcgU5kWlqCSbAwCe4HPxyT5Xhc6KzvX1zj/+ec2yQkh09A9BlsWQ==
+  dependencies:
+    "@ag-ui/client" "0.0.42"
+    "@ag-ui/core" "0.0.42"
+    "@copilotkitnext/core" "0.0.33"
+    "@copilotkitnext/shared" "0.0.33"
+    "@copilotkitnext/web-inspector" "0.0.33"
+    "@lit-labs/react" "^2.0.2"
+    "@radix-ui/react-dropdown-menu" "^2.1.15"
+    "@radix-ui/react-slot" "^1.2.3"
+    "@radix-ui/react-tooltip" "^1.2.7"
+    class-variance-authority "^0.7.1"
+    clsx "^2.1.1"
+    katex "^0.16.22"
+    lucide-react "^0.525.0"
+    streamdown "^1.3.0"
+    tailwind-merge "^3.3.1"
+    ts-deepmerge "^7.0.3"
+    tw-animate-css "^1.3.5"
+    use-stick-to-bottom "^1.1.1"
+    zod "^3.25.75"
+
+"@copilotkitnext/shared@0.0.33":
+  version "0.0.33"
+  resolved "https://registry.yarnpkg.com/@copilotkitnext/shared/-/shared-0.0.33.tgz#71f23846fd3cbc074ce9b2402d2a7490993e18e4"
+  integrity sha512-tcWCk0izP+rr6eLKXP+z3j6A8+VcA09uGwgy+TS1yRd6eRdvR5SISqAOOQM8t4WBXGg0z+QWbJNXiVq6cPtukQ==
+  dependencies:
+    "@ag-ui/client" "0.0.42"
+    partial-json "^0.1.7"
+    uuid "^11.1.0"
+
+"@copilotkitnext/web-inspector@0.0.33":
+  version "0.0.33"
+  resolved "https://registry.yarnpkg.com/@copilotkitnext/web-inspector/-/web-inspector-0.0.33.tgz#e1fef777c86d76d35ccc46a5c84b67438e274c5b"
+  integrity sha512-6XkkigbkhSkcFrzWEqiW6P98y9rCv4+Q/YGlvS9KNfeYOoyt1Z9Ug1VVy7BC6qIhytbrraJizo24g8v3nCWVqQ==
+  dependencies:
+    "@ag-ui/client" "0.0.42"
+    "@copilotkitnext/core" "0.0.33"
+    lit "^3.2.0"
+    lucide "^0.525.0"
+    marked "^12.0.2"
 
 "@copilotkit/shared@1.50.1":
   version "1.50.1"
@@ -644,10 +712,10 @@
   resolved "https://registry.yarnpkg.com/@floating-ui/utils/-/utils-0.2.5.tgz#105c37d9d9620ce69b7f692a20c821bf1ad2cbf9"
   integrity sha512-sTcG+QZ6fdEUObICavU+aB3Mp8HY4n14wYHdxK4fXjPmv3PXZZeY5RaguJmGyeH/CJQhX3fqKUtS4qc1LoHwhQ==
 
-"@headlessui/react@^2.1.3":
-  version "2.2.4"
-  resolved "https://registry.yarnpkg.com/@headlessui/react/-/react-2.2.4.tgz#9b0c48a5be1fe4577f03f3216290bb71d9883520"
-  integrity sha512-lz+OGcAH1dK93rgSMzXmm1qKOJkBUqZf1L4M8TWLNplftQD3IkoEDdUFNfAn4ylsN6WOTVtWaLmvmaHOUk1dTA==
+"@headlessui/react@^2.2.9":
+  version "2.2.9"
+  resolved "https://registry.yarnpkg.com/@headlessui/react/-/react-2.2.9.tgz#213f78534c86e03a7c986d2c2abe1270622b3e13"
+  integrity sha512-Mb+Un58gwBn0/yWZfyrCh0TJyurtT+dETj7YHleylHk5od3dv2XqETPGWMyQ5/7sYN7oWdyM1u9MvC0OC8UmzQ==
   dependencies:
     "@floating-ui/react" "^0.26.16"
     "@react-aria/focus" "^3.20.2"
