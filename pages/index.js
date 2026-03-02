@@ -6,7 +6,7 @@ import {
 } from "react-icons/ai";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
-import deved from "../public/valencia.JPG";
+import deved from "../public/valencia.jpg";
 import code from "../public/code.png";
 import design from "../public/fullstack.jpg";
 import consulting from "../public/consulting.png";
