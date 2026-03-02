@@ -73,7 +73,7 @@ export default function Home() {
               <a href="https://huggingface.co/pascal-maker" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform duration-200 text-4xl" title="Hugging Face Profile">🤗</a>
             </div>
 
-            <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-64 h-64 relative overflow-hidden mt-20 md:h-96 md:w-96">
+            <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-[28rem] md:w-[28rem]">
               <Image
                 src={deved}
                 layout="fill"
